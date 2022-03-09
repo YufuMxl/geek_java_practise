@@ -8,6 +8,10 @@ import java.util.Base64;
 
 public class MyClassLoader extends ClassLoader {
 
+    /**
+     * @param name 指定类名
+     * @return 返回 Class 对象
+     */
     @Override
     protected Class<?> findClass(String name) {
         // 类的动态加载，可以对代码进行加密保护
@@ -44,6 +48,7 @@ public class MyClassLoader extends ClassLoader {
             System.out.println(url.toExternalForm());
         }
 
+        // 用自定义 class loader 加载类的二进制字节流
         new MyClassLoader().findClass("first_week.Hello").newInstance();
     }
 
