@@ -17,7 +17,11 @@ public class JOLTest {
         System.out.println(ClassLayout.parseInstance(allFieldClass).toPrintable());
 
         // 查看数组对象的内存布局
-        EmptyClass[] emptyClassArray = new EmptyClass[1];
-        System.out.println(ClassLayout.parseInstance(emptyClassArray).toPrintable());
+        int[] array = new int[256];
+        System.out.println(ClassLayout.parseInstance(array).toPrintable());
+
+        // 查看多维数组对象的内存布局
+        int[][] matrix = new int[128][2];
+        System.out.println(ClassLayout.parseInstance(matrix).toPrintable());
     }
 }
