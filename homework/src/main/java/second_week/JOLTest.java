@@ -23,5 +23,9 @@ public class JOLTest {
         // 查看多维数组对象的内存布局
         int[][] matrix = new int[128][2];
         System.out.println(ClassLayout.parseInstance(matrix).toPrintable());
+
+        // 查看字符串对象的内存布局
+        String string = "0123456789";
+        System.out.println(ClassLayout.parseInstance(string).toPrintable());
     }
 }
