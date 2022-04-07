@@ -1,7 +1,7 @@
 package second_week;
 
 /**
- * VM Args：-Xss10M（该值越大，越容易 OOM）
+ * VM Args：-Xss512M（该值越大，越容易 OOM）
  */
 public class JavaVMStackOOM {
     private void dontStop() {
@@ -19,6 +19,9 @@ public class JavaVMStackOOM {
         }
     }
 
+    /**
+     * 容易导致死机，请谨慎执行
+     */
     public static void main(String[] args) {
         JavaVMStackOOM oom = new JavaVMStackOOM();
         oom.stackLeakByThread();
