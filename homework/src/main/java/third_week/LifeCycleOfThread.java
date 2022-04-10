@@ -8,6 +8,8 @@ public class LifeCycleOfThread {
         lifeCycleOfThread.runnableState();
         lifeCycleOfThread.blockedState();
         lifeCycleOfThread.waitingState();
+        lifeCycleOfThread.timedWaitingState();
+        lifeCycleOfThread.terminatedState();
     }
 
     private void newState() {
@@ -68,5 +70,29 @@ public class LifeCycleOfThread {
         };
         t1 = new Thread(t1Runnable);
         t1.start();
+    }
+
+    private void timedWaitingState() throws InterruptedException {
+        Runnable runnable = () -> {
+            try {
+                Thread.sleep(5000);
+            } catch (InterruptedException ignored) {
+            }
+        };
+        Thread t = new Thread(runnable);
+        t.start();
+        Thread.sleep(1000);
+        System.out.println(t.getState());
+    }
+
+    private void terminatedState() throws InterruptedException {
+        Runnable runnable = () -> {
+            // do something
+        };
+        Thread t = new Thread(runnable);
+        t.start();
+        Thread.sleep(1000);
+        System.out.println(t.getState());
+        System.out.println(t.isAlive());
     }
 }
