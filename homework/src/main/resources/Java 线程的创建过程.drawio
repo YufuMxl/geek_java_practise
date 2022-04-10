@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-10T09:26:52.212Z" agent="5.0 (Macintosh)" etag="Ztqza395vPswlK2nfDeN" version="17.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-10T09:28:37.824Z" agent="5.0 (Macintosh)" etag="H7K3E5I2STYqSulWoPmw" version="17.4.2" type="github">
   <diagram id="bJ92Hs5TZ8Z7czVXULVL" name="Page-1">
-    <mxGraphModel dx="561" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="629" dy="924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -76,13 +76,13 @@
         <mxCell id="5HvtsqjPbW2SA4gr3-XW-17" value="Terminate" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#82b366;strokeWidth=1;fillColor=#d5e8d4;fontFamily=Comic Sans MS;" parent="1" vertex="1">
           <mxGeometry x="600" y="580" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5HvtsqjPbW2SA4gr3-XW-18" value="Java 层面" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;fontFamily=Comic Sans MS;" parent="1" vertex="1">
+        <mxCell id="5HvtsqjPbW2SA4gr3-XW-18" value="&lt;div&gt;Java 层面&lt;/div&gt;Thread" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;fontFamily=Comic Sans MS;" parent="1" vertex="1">
           <mxGeometry x="700" y="320" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="5HvtsqjPbW2SA4gr3-XW-19" value="JVM 层面" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;fontFamily=Comic Sans MS;" parent="1" vertex="1">
+        <mxCell id="5HvtsqjPbW2SA4gr3-XW-19" value="&lt;div&gt;JVM 层面&lt;/div&gt;Thread" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;fontFamily=Comic Sans MS;" parent="1" vertex="1">
           <mxGeometry x="700" y="440" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="5HvtsqjPbW2SA4gr3-XW-20" value="OS 层面" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;fontFamily=Comic Sans MS;" parent="1" vertex="1">
+        <mxCell id="5HvtsqjPbW2SA4gr3-XW-20" value="&lt;div&gt;OS 层面&lt;/div&gt;Thread" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;fontFamily=Comic Sans MS;" parent="1" vertex="1">
           <mxGeometry x="700" y="560" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
