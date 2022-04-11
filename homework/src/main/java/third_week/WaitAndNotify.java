@@ -44,7 +44,11 @@ public class WaitAndNotify {
         // 虚假唤醒：线程可能会在中断、超时或未被通知的情况下被唤醒
         // 可以用循环的方式，让线程在条件不满足时继续等待，以防虚假唤醒
         while ((threadName.equals("thread 1") || threadName.equals("thread 2")) && !thread3isDone) {
-            wait();
+            try {
+                wait();
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+            }
         }
         System.out.println(threadName);
         if (threadName.equals("thread 3")) {
