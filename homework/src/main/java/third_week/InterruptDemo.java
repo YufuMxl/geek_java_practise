@@ -13,8 +13,10 @@ public class InterruptDemo {
             } catch (InterruptedException e) {
                 System.out.println("Thread 1 Interrupted");
             }
+            System.out.println("Thread 1 continue");
         });
         thread1.start();
+        Thread.sleep(1000);
         thread1.interrupt();
 
         // 以下代码演示延迟中断
