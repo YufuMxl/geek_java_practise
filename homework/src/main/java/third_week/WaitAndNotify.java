@@ -2,6 +2,8 @@ package third_week;
 
 public class WaitAndNotify {
 
+    private static boolean thread3isDone = false;
+
     public static void main(String[] args) throws Exception {
         WaitAndNotify waitAndNotify = new WaitAndNotify();
         Runnable syncMethodTask = () -> {
@@ -39,24 +41,26 @@ public class WaitAndNotify {
     // 同步实例方法，监听器属于实例对象
     public synchronized void syncMethod() throws InterruptedException {
         String threadName = Thread.currentThread().getName();
-        if (threadName.equals("thread 1") || threadName.equals("thread 2")) {
+        while ((threadName.equals("thread 1") || threadName.equals("thread 2")) && !thread3isDone) {
             wait();
         }
         System.out.println(threadName);
         if (threadName.equals("thread 3")) {
-            notify();
+            thread3isDone = true;
+            notifyAll();
         }
     }
 
     // 同步静态方法，监听器属于 class 对象
     public synchronized static void syncStaticMethod() throws InterruptedException {
         String threadName = Thread.currentThread().getName();
-        if (threadName.equals("thread 1") || threadName.equals("thread 2")) {
+        while ((threadName.equals("thread 1") || threadName.equals("thread 2")) && !thread3isDone) {
             WaitAndNotify.class.wait();
         }
         System.out.println(threadName);
         if (threadName.equals("thread 3")) {
-            WaitAndNotify.class.notify();
+            thread3isDone = true;
+            WaitAndNotify.class.notifyAll();
         }
     }
 
@@ -64,12 +68,13 @@ public class WaitAndNotify {
     public void syncBlock(Object obj) throws InterruptedException {
         String threadName = Thread.currentThread().getName();
         synchronized (obj) {
-            if (threadName.equals("thread 1") || threadName.equals("thread 2")) {
+            while ((threadName.equals("thread 1") || threadName.equals("thread 2")) && !thread3isDone) {
                 obj.wait();
             }
             System.out.println(threadName);
             if (threadName.equals("thread 3")) {
-                obj.notify();
+                thread3isDone = true;
+                obj.notifyAll();
             }
         }
     }
