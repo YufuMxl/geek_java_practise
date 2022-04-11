@@ -41,6 +41,8 @@ public class WaitAndNotify {
     // 同步实例方法，监听器属于实例对象
     public synchronized void syncMethod() throws InterruptedException {
         String threadName = Thread.currentThread().getName();
+        // 虚假唤醒：线程可能会在中断、超时或未被通知的情况下被唤醒
+        // 可以用循环的方式，让线程在条件不满足时继续等待，以防虚假唤醒
         while ((threadName.equals("thread 1") || threadName.equals("thread 2")) && !thread3isDone) {
             wait();
         }
