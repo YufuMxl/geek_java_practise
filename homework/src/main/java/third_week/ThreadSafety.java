@@ -43,10 +43,12 @@ public class ThreadSafety {
 
     private void volatileDemo() {
         // 对 volatile 变量进行操作，可以保证代码的有序性
-        x = 2;
-        y = 0;
-        flag = true;
-        x = 4;
-        y = 1;
+        x = 2;          // 语句 1
+        y = 0;          // 语句 2
+        flag = true;    // 语句 3
+        x = 4;          // 语句 4
+        y = 1;          // 语句 5
+        // 语句 1 和 2 不会被重排到 3 后面，4 和 5 也不会被重排到前面
+        // 同时保证 1 和 2 的结果是对 3、4、5 可见（因为执行到 3 会刷新一遍主内存）
     }
 }
