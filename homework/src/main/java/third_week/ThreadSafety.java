@@ -36,4 +36,17 @@ public class ThreadSafety {
         } catch (InterruptedException ignored) {
         }
     }
+
+    int x;
+    int y;
+    volatile boolean flag;
+
+    private void volatileDemo() {
+        // 对 volatile 变量进行操作，可以保证代码的有序性
+        x = 2;
+        y = 0;
+        flag = true;
+        x = 4;
+        y = 1;
+    }
 }
