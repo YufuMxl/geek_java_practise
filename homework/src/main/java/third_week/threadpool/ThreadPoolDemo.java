@@ -14,7 +14,7 @@ public class ThreadPoolDemo {
 
     // 自定义线程工厂
     static class CustomThreadFactory implements ThreadFactory {
-        private AtomicInteger serial = new AtomicInteger(0);
+        private final AtomicInteger serial = new AtomicInteger(0);
 
         @Override
         public Thread newThread(Runnable r) {
@@ -46,6 +46,16 @@ public class ThreadPoolDemo {
         ExecutorService scheduledThreadPool2 = Executors.newScheduledThreadPool(10, threadFactory);
 
         return fixedThreadPool2;
+    }
+
+    public static ExecutorService newThreadPoolExecutor() {
+        // availableProcessors 为 CPU 物理线程数
+        // 由于 Intel 处理器有超线程技术，物理线程数 = CPU 核数 * 2
+        int corePoolSize = Runtime.getRuntime().availableProcessors();
+        int maximumPoolSize = corePoolSize * 2;
+        BlockingQueue<Runnable> workQueue = new LinkedBlockingQueue<>(500);
+        ThreadFactory threadFactory = new CustomThreadFactory();
+        return new ThreadPoolExecutor(corePoolSize, maximumPoolSize, 1, TimeUnit.MINUTES, workQueue, threadFactory);
     }
 
     // 验证线程池是否一开始就创建线程
