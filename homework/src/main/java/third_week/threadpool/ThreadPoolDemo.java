@@ -1,5 +1,6 @@
 package third_week.threadpool;
 
+import java.util.Random;
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -59,15 +60,28 @@ public class ThreadPoolDemo {
     }
 
     // 验证线程池是否一开始就创建线程
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws Exception {
         ExecutorService threadPool = newThreadPoolDemo();
         Thread.sleep(15000);
         threadPool.execute(() -> System.out.println("创建了一个线程"));
         Thread.sleep(15000);
         threadPool.execute(() -> System.out.println("创建了另一个线程"));
 
+        Future<Integer> sleepTimeOut = threadPool.submit(new RandomSleepTask());
+        System.out.println("Callable 接口示例，sleep 时长：" + sleepTimeOut.get());
+
         for (int i = 0; i < 10; i++) {
             Thread.sleep(15000);
+        }
+    }
+
+    // Callable 接口示例
+    static class RandomSleepTask implements Callable<Integer> {
+        @Override
+        public Integer call() throws Exception {
+            int sleep = new Random().nextInt(10000);
+            TimeUnit.MILLISECONDS.sleep(sleep);
+            return sleep;
         }
     }
 
