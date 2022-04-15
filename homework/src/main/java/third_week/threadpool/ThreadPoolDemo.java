@@ -52,9 +52,9 @@ public class ThreadPoolDemo {
     public static void main(String[] args) throws InterruptedException {
         ExecutorService threadPool = newThreadPoolDemo();
         Thread.sleep(15000);
-        threadPool.execute(() -> {
-            System.out.println("创建了一个线程");
-        });
+        threadPool.execute(() -> System.out.println("创建了一个线程"));
+        Thread.sleep(15000);
+        threadPool.execute(() -> System.out.println("创建了另一个线程"));
 
         for (int i = 0; i < 10; i++) {
             Thread.sleep(15000);
