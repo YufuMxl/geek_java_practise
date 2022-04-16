@@ -67,8 +67,7 @@ public class ThreadPoolDemo {
         Thread.sleep(15000);
         threadPool.execute(() -> System.out.println("创建了另一个线程"));
 
-        Future<Integer> sleepTimeOut = threadPool.submit(new RandomSleepTask());
-        System.out.println("Callable 接口示例，sleep 时长：" + sleepTimeOut.get());
+        futureDemo();
 
         for (int i = 0; i < 10; i++) {
             Thread.sleep(15000);
@@ -83,6 +82,18 @@ public class ThreadPoolDemo {
             TimeUnit.MILLISECONDS.sleep(sleep);
             return sleep;
         }
+    }
+
+    // Future 接口示例
+    public static void futureDemo() throws ExecutionException, InterruptedException, TimeoutException {
+        ExecutorService threadPool = newThreadPoolExecutor();
+        Future<Integer> future1 = threadPool.submit(new RandomSleepTask());
+        Future<Integer> future2 = threadPool.submit(new RandomSleepTask());
+        // 等待执行结果
+        Integer result1 = future1.get(2000, TimeUnit.MILLISECONDS);
+        System.out.println("result1=" + result1);
+        Integer result2 = future2.get(2000, TimeUnit.MILLISECONDS);
+        System.out.println("result2=" + result2);
     }
 
 }
