@@ -75,6 +75,7 @@ public class ReentrantLockDemo {
 
     public void tryLockDemo(Lock lock) {
         String threadName = Thread.currentThread().getName();
+        // 立即超时
         if (lock.tryLock()) {
             try {
                 Thread.sleep(1000);
@@ -103,6 +104,7 @@ public class ReentrantLockDemo {
                 System.out.println(threadName + " 获取锁超时");
             }
         } catch (InterruptedException e) {
+            // 在获取锁的期间，可以被主动中断
             System.out.println(threadName + " 线程被中断");
         }
     }
