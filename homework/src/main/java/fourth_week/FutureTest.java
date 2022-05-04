@@ -2,7 +2,9 @@ package fourth_week;
 
 import third_week.threadpool.ThreadPoolDemo;
 
+import java.util.Random;
 import java.util.concurrent.*;
+import java.util.function.Supplier;
 
 public class FutureTest {
 
@@ -11,6 +13,9 @@ public class FutureTest {
         futureDemo(threadPool);
         futureTaskDemo(threadPool);
         completableFutureDemo1();
+        completableFutureDemo2();
+        completableFutureDemo3();
+        completableFutureDemo4();
     }
 
     public static void futureDemo(ExecutorService threadPool) throws ExecutionException, InterruptedException {
@@ -47,10 +52,9 @@ public class FutureTest {
             try {
                 Thread.sleep(2000L);
                 System.out.println("The asynchronous running method was run" + Thread.currentThread().getName());
-                return "completed within thread";
-            } catch (InterruptedException e) {
-                return e.getMessage();
+            } catch (InterruptedException ignored) {
             }
+            return "completed within thread";
         });
 
         Thread.sleep(200L); // 移除 sleep，supplyAsync 内部的任务就不再执行
@@ -62,4 +66,68 @@ public class FutureTest {
         System.out.println("wait for sout When finished, call again get: " + future.get());
     }
 
+    /**
+     * CompletableFuture 可以添加回调方法
+     */
+    public static void completableFutureDemo2() throws InterruptedException, ExecutionException {
+        CompletableFuture<String> future = CompletableFuture.supplyAsync(() -> {
+            System.out.println(Thread.currentThread().getName() + " is running");
+            try {
+                Thread.sleep(1000L);
+            } catch (InterruptedException ignored) {
+            }
+            return "completed within thread";
+        }).thenApply((string) -> {
+            System.out.println(Thread.currentThread().getName() + " is calling callback");
+            return string + " with callback";
+        });
+        System.out.println(future.get());
+    }
+
+    /**
+     * CompletableFuture 可以组合多个任务以获得结果
+     */
+    public static void completableFutureDemo3() throws InterruptedException, ExecutionException {
+        Supplier<String> Supplier = () -> {
+            String threadName = Thread.currentThread().getName();
+            System.out.println("线程 " + threadName + " 开始执行任务");
+            try {
+                Thread.sleep(new Random().nextInt(10000));
+            } catch (InterruptedException ignored) {
+            }
+            System.out.println("线程 " + threadName + " 执行任务结束");
+            return threadName;
+        };
+
+        CompletableFuture<String> future1 = CompletableFuture.supplyAsync(Supplier);
+        CompletableFuture<String> future2 = CompletableFuture.supplyAsync(Supplier);
+        CompletableFuture<String> future3 = CompletableFuture.supplyAsync(Supplier);
+        CompletableFuture<Void> completableFuture = CompletableFuture.allOf(future1, future2, future3);
+        System.out.println(completableFuture.get() + " 所有任务执行结束");
+
+        CompletableFuture<String> future4 = CompletableFuture.supplyAsync(Supplier);
+        CompletableFuture<String> future5 = CompletableFuture.supplyAsync(Supplier);
+        CompletableFuture<String> future6 = CompletableFuture.supplyAsync(Supplier);
+        CompletableFuture<Object> objectCompletableFuture = CompletableFuture.anyOf(future4, future5, future6);
+        System.out.println("获取最先执行结束的线程返回值： " + objectCompletableFuture.get());
+        Thread.sleep(10000);
+    }
+
+    /**
+     * CompletableFuture 可以处理异常
+     */
+    public static void completableFutureDemo4() throws InterruptedException, ExecutionException {
+        CompletableFuture<String> handle = CompletableFuture
+            .runAsync(() -> System.out.println("线程 " + Thread.currentThread().getName() + " 开始执行任务"))
+            .handle((unused, throwable) -> {
+                if (null == throwable) return "ok";
+                else return "error";
+            });
+        System.out.println(handle.get());
+
+        CompletableFuture<String> exceptionally = CompletableFuture
+            .supplyAsync(() -> String.valueOf(1 / 0))
+            .exceptionally(throwable -> "error");
+        System.out.println(exceptionally.get());
+    }
 }
