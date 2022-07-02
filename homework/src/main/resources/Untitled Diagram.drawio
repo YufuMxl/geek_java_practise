@@ -1,1 +1,94 @@
-<mxfile host="app.diagrams.net" modified="2022-07-02T08:23:25.982Z" agent="5.0 (Macintosh)" version="18.0.2" etag="2lxwvd0wBBUU7Ssyn5oc" type="github"><diagram id="cgVycXCGsbauf77h4YG5">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-02T08:56:18.981Z" agent="5.0 (Macintosh)" etag="BAReUN54ZhPkcF4nGZF4" version="18.0.2" type="github">
+  <diagram id="cgVycXCGsbauf77h4YG5" name="Page-1">
+    <mxGraphModel dx="566" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HFvUwdXBrZaI9ndgXs2X-27" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="120" width="400" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="HFvUwdXBrZaI9ndgXs2X-26" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="120" width="200" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="HFvUwdXBrZaI9ndgXs2X-1" value="master" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="160" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HFvUwdXBrZaI9ndgXs2X-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HFvUwdXBrZaI9ndgXs2X-2" target="HFvUwdXBrZaI9ndgXs2X-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HFvUwdXBrZaI9ndgXs2X-22" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HFvUwdXBrZaI9ndgXs2X-2" target="HFvUwdXBrZaI9ndgXs2X-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HFvUwdXBrZaI9ndgXs2X-24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HFvUwdXBrZaI9ndgXs2X-2" target="HFvUwdXBrZaI9ndgXs2X-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HFvUwdXBrZaI9ndgXs2X-2" value="slave" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="440" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HFvUwdXBrZaI9ndgXs2X-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HFvUwdXBrZaI9ndgXs2X-3" target="HFvUwdXBrZaI9ndgXs2X-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HFvUwdXBrZaI9ndgXs2X-3" value="MySQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="160" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HFvUwdXBrZaI9ndgXs2X-4" value="MySQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="440" y="310" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HFvUwdXBrZaI9ndgXs2X-20" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;fontSize=11;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;horizontal=1;" edge="1" parent="1" source="HFvUwdXBrZaI9ndgXs2X-5" target="HFvUwdXBrZaI9ndgXs2X-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HFvUwdXBrZaI9ndgXs2X-5" value="binlog" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="160" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HFvUwdXBrZaI9ndgXs2X-7" value="&lt;div&gt;update&lt;/div&gt;&lt;div&gt;delete&lt;/div&gt;&lt;div&gt;insert&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="320" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HFvUwdXBrZaI9ndgXs2X-9" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="180" y="380" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HFvUwdXBrZaI9ndgXs2X-16" value="relay log" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="690" y="140" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HFvUwdXBrZaI9ndgXs2X-18" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="350" y="140" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HFvUwdXBrZaI9ndgXs2X-21" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="350" y="260" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HFvUwdXBrZaI9ndgXs2X-23" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="584.5" y="145" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HFvUwdXBrZaI9ndgXs2X-25" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="470" y="220" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HFvUwdXBrZaI9ndgXs2X-28" value="I/O thread" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HFvUwdXBrZaI9ndgXs2X-29" value="SQL thread" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="255" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HFvUwdXBrZaI9ndgXs2X-30" value="写操作全都在 master" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="200" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HFvUwdXBrZaI9ndgXs2X-31" value="记录所有写操作 " style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="480" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HFvUwdXBrZaI9ndgXs2X-32" value="&lt;div&gt;slave 连接着 master&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="303.75" y="180" width="112.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HFvUwdXBrZaI9ndgXs2X-33" value="&lt;div&gt;binlog dump thread&lt;br&gt;&lt;/div&gt;&lt;div&gt;订阅 master 的 binlog 数据&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="290" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HFvUwdXBrZaI9ndgXs2X-34" value="将 binlog 数据转换成本地 relay log" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="580" y="170" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HFvUwdXBrZaI9ndgXs2X-35" value="relay log 基本等价于 binlog" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="690" y="200" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HFvUwdXBrZaI9ndgXs2X-36" value="将 relay log 重新执行一遍" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="505" y="255" width="80" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
