@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-21T09:18:30.078Z" agent="5.0 (Macintosh)" etag="mecZZKzPxVmUfvL_YJhr" version="20.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-21T09:21:06.914Z" agent="5.0 (Macintosh)" etag="Xut99ya3-EZiG2SUQu2-" version="20.4.2" type="github">
   <diagram id="VSlhjRAEM9ST0E-lCNpF" name="第 1 页">
-    <mxGraphModel dx="2392" dy="1569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="759" dy="1421" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -40,7 +40,7 @@
         <mxCell id="3so3bK_qegvV-XUkMQKH-12" value="建立连接" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=5;fontSize=18;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="460" y="325" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3so3bK_qegvV-XUkMQKH-13" value="&lt;div style=&quot;font-size: 16px;&quot;&gt;建立服务端监听&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;socket&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="3so3bK_qegvV-XUkMQKH-13" value="&lt;div style=&quot;font-size: 16px;&quot;&gt;建立服务端监听&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;socket&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=16;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="200" y="290" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="3so3bK_qegvV-XUkMQKH-14" value="&lt;div style=&quot;font-size: 16px;&quot;&gt;等待并接收&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;连接请求&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=16;" vertex="1" parent="1">
