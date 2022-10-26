@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-26T09:16:51.467Z" agent="5.0 (Macintosh)" etag="CqvAhzZ-zwjVU3oI-Nx6" version="20.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-26T09:24:54.556Z" agent="5.0 (Macintosh)" etag="Tpm5K6uuL0lMN3f41n8M" version="20.4.2" type="github">
   <diagram id="m7KzZiY3-KN9SMEAAMLc" name="第 1 页">
     <mxGraphModel dx="2364" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -92,10 +92,10 @@
         <mxCell id="ulN_Afe3Hyk2KE6-v_vF-59" value="&lt;div&gt;业务服务&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;UD 模块：Admin、IDP、SSO、Contact&lt;/div&gt;&lt;div&gt;LCM 模块：Connector、Flow Engine、Image Matching&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="-880" y="410" width="480" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-62" value="&lt;div&gt;基础服务：支撑业务服务&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Notification：消息通知（短信、邮件、企微钉钉飞书）&lt;/div&gt;&lt;div&gt;Key Manager：密钥管理（私钥、证书、密码）&lt;br&gt;&lt;/div&gt;&lt;div&gt;Script Engine：脚本引擎&lt;/div&gt;&lt;div&gt;Job Scheduler：任务定时调度&lt;br&gt;&lt;/div&gt;&lt;div&gt;Dynamic Loading：动态加载（加载定制单点登录协议、Agent 自动升级）&lt;/div&gt;&lt;div&gt;Configuration：动态配置、服务启动配置&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-62" value="&lt;div&gt;基础服务：支撑业务服务&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Notification：消息通知（短信、邮件、企微钉钉飞书）&lt;/div&gt;&lt;div&gt;Key Manager：密钥管理（私钥、证书、密码）&lt;br&gt;&lt;/div&gt;&lt;div&gt;Script Engine：脚本引擎&lt;/div&gt;&lt;div&gt;Job Scheduler：任务定时调度&lt;br&gt;&lt;/div&gt;&lt;div&gt;Dynamic Loading：动态加载（加载定制单点登录协议、Agent 自动升级）&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="-880" y="480" width="480" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-64" value="&lt;div&gt;数据层&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;MySQL：分库、VIP&lt;/div&gt;&lt;div&gt;Redis&lt;/div&gt;&lt;div&gt;ES&lt;/div&gt;&lt;div&gt;Vault：供 KMS 使用&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-64" value="&lt;div&gt;数据层&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;MySQL：分库、VIP&lt;/div&gt;&lt;div&gt;Redis&lt;/div&gt;&lt;div&gt;ES&lt;/div&gt;&lt;div&gt;Vault：供 KMS 使用&lt;/div&gt;&lt;div&gt;腾讯云对象存储&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-880" y="610" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ulN_Afe3Hyk2KE6-v_vF-65" value="&lt;div&gt;分布式日志系统&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ELK：结合 Kafka&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -119,17 +119,14 @@
         <mxCell id="ulN_Afe3Hyk2KE6-v_vF-70" value="&lt;div&gt;身份提供商/目录&lt;br&gt;&lt;/div&gt;&lt;div&gt;服务提供商/应用&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1140" y="480" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-72" value="&lt;div&gt;腾讯北极星服务注册中心&lt;/div&gt;&lt;div&gt;注册中心&lt;/div&gt;&lt;div&gt;内容审核平台&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-72" value="&lt;div&gt;腾讯北极星服务注册中心&lt;/div&gt;&lt;div&gt;注册中心&lt;/div&gt;&lt;div&gt;内容审核平台&lt;/div&gt;&lt;div&gt;配置中心：动态配置、服务启动配置&lt;/div&gt;&lt;div&gt;内容中心&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-640" y="320" width="240" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-73" value="北京集群" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-840" y="160" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-74" value="广州集群" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-560" y="160" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ulN_Afe3Hyk2KE6-v_vF-75" value="私有化" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-700" y="220" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-77" value="&lt;div&gt;公有云&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-570" y="220" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
