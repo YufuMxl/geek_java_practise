@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-26T10:17:18.732Z" agent="5.0 (Macintosh)" etag="sGCjLycGks3dNbmt7PeY" version="20.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-26T10:33:22.579Z" agent="5.0 (Macintosh)" etag="QxP1AaeyL69YfpDRson-" version="20.4.2" type="github">
   <diagram id="m7KzZiY3-KN9SMEAAMLc" name="第 1 页">
     <mxGraphModel dx="2520" dy="887" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -74,8 +74,8 @@
         <mxCell id="ulN_Afe3Hyk2KE6-v_vF-51" value="服务提供商/应用" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="770" y="410" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-58" value="&lt;div&gt;APISIX 网关&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;负载均衡&lt;/div&gt;&lt;div&gt;灰度发布&lt;/div&gt;&lt;div&gt;读写分割&lt;/div&gt;&lt;div&gt;熔断限流&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-880" y="320" width="240" height="90" as="geometry" />
+        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-58" value="&lt;div&gt;APISIX 网关&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;负载均衡&lt;/div&gt;&lt;div&gt;灰度发布&lt;/div&gt;&lt;div&gt;读写分割&lt;/div&gt;&lt;div&gt;熔断限流&lt;/div&gt;&lt;div&gt;服务路由&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-880" y="310" width="240" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ulN_Afe3Hyk2KE6-v_vF-59" value="&lt;div&gt;业务服务&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;UD 模块：Admin、IDP、SSO、Contact&lt;/div&gt;&lt;div&gt;LCM 模块：Connector、Flow Engine、Image Matching&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="-880" y="410" width="480" height="70" as="geometry" />
@@ -107,8 +107,8 @@
         <mxCell id="ulN_Afe3Hyk2KE6-v_vF-70" value="&lt;div&gt;身份提供商/目录&lt;br&gt;&lt;/div&gt;&lt;div&gt;服务提供商/应用&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1140" y="480" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-72" value="&lt;div&gt;腾讯北极星服务注册中心&lt;/div&gt;&lt;div&gt;配置中心：动态配置、服务启动配置&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-640" y="320" width="240" height="90" as="geometry" />
+        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-72" value="&lt;div&gt;腾讯北极星服务发现/注册中心&lt;/div&gt;&lt;div&gt;配置中心：动态配置、服务启动配置&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-640" y="310" width="240" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ulN_Afe3Hyk2KE6-v_vF-75" value="私有化" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-800" y="200" width="120" height="80" as="geometry" />
