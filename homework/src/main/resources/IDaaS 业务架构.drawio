@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-26T09:13:00.096Z" agent="5.0 (Macintosh)" etag="RVWSGtYTNby-xWq3A5jw" version="20.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-26T09:16:51.467Z" agent="5.0 (Macintosh)" etag="CqvAhzZ-zwjVU3oI-Nx6" version="20.4.2" type="github">
   <diagram id="m7KzZiY3-KN9SMEAAMLc" name="第 1 页">
     <mxGraphModel dx="2364" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -104,7 +104,7 @@
         <mxCell id="ulN_Afe3Hyk2KE6-v_vF-66" value="&lt;div&gt;消息组件&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Kafka&lt;br&gt;&lt;/div&gt;&lt;div&gt;Zookeeper&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-760" y="610" width="120" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-67" value="监控、告警" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-67" value="&lt;div&gt;监控、告警&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;硬件资源、网络资源&lt;/div&gt;&lt;div&gt;访问量、日活&lt;br&gt;&lt;/div&gt;&lt;div&gt;JVM、MySQL&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-520" y="610" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ulN_Afe3Hyk2KE6-v_vF-68" value="&lt;div&gt;服务间通信&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;RPC&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
