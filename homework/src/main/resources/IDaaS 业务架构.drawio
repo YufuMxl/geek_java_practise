@@ -1,121 +1,121 @@
-<mxfile host="app.diagrams.net" modified="2022-10-26T10:40:45.504Z" agent="5.0 (Macintosh)" etag="Y_QsOTt3ruAjQP4R_HQI" version="20.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-27T03:34:18.937Z" agent="5.0 (Macintosh)" etag="UuNbom74f7Zz57R--f6f" version="20.5.1" type="github">
   <diagram id="m7KzZiY3-KN9SMEAAMLc" name="第 1 页">
-    <mxGraphModel dx="2520" dy="887" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="2723" dy="1020" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-11" value="目录服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-11" value="目录服务" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-240" y="460" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-22" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ulN_Afe3Hyk2KE6-v_vF-13" target="ulN_Afe3Hyk2KE6-v_vF-11">
+        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-22" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ulN_Afe3Hyk2KE6-v_vF-13" target="ulN_Afe3Hyk2KE6-v_vF-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-13" value="&lt;div&gt;Agent&lt;/div&gt;独立公网 IP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-13" value="&lt;div&gt;Agent&lt;/div&gt;独立公网 IP" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-70" y="480" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ulN_Afe3Hyk2KE6-v_vF-17" target="ulN_Afe3Hyk2KE6-v_vF-11">
+        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="ulN_Afe3Hyk2KE6-v_vF-17" target="ulN_Afe3Hyk2KE6-v_vF-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="120" y="410" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-23" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ulN_Afe3Hyk2KE6-v_vF-17" target="ulN_Afe3Hyk2KE6-v_vF-13">
+        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-23" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ulN_Afe3Hyk2KE6-v_vF-17" target="ulN_Afe3Hyk2KE6-v_vF-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-43" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ulN_Afe3Hyk2KE6-v_vF-17" target="ulN_Afe3Hyk2KE6-v_vF-44">
+        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-43" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="ulN_Afe3Hyk2KE6-v_vF-17" target="ulN_Afe3Hyk2KE6-v_vF-44" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="370" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-48" value="&lt;div&gt;JIT&lt;/div&gt;&lt;div&gt;账号数据与身份数据 1:n&lt;br&gt;&lt;/div&gt;" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ulN_Afe3Hyk2KE6-v_vF-17" target="ulN_Afe3Hyk2KE6-v_vF-47">
+        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-48" value="&lt;div&gt;JIT&lt;/div&gt;&lt;div&gt;账号数据与身份数据 1:n&lt;br&gt;&lt;/div&gt;" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ulN_Afe3Hyk2KE6-v_vF-17" target="ulN_Afe3Hyk2KE6-v_vF-47" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-17" value="&lt;div&gt;IDP&lt;/div&gt;&lt;div&gt;账号数据管理&lt;/div&gt;&lt;div&gt;认证系统集成&lt;br&gt;&lt;/div&gt;&lt;div&gt;身份认证、授权&lt;br&gt;&lt;/div&gt;&lt;div&gt;MFA&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="320" width="120" height="100" as="geometry" />
+        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-17" value="&lt;div&gt;IDP&lt;/div&gt;&lt;div&gt;账号数据管理&lt;/div&gt;&lt;div&gt;认证系统集成&lt;br&gt;&lt;/div&gt;&lt;div&gt;身份认证、授权&lt;br&gt;&lt;/div&gt;&lt;div&gt;MFA&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="320" width="120" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-20" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ulN_Afe3Hyk2KE6-v_vF-18" target="ulN_Afe3Hyk2KE6-v_vF-11">
+        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-20" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="ulN_Afe3Hyk2KE6-v_vF-18" target="ulN_Afe3Hyk2KE6-v_vF-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ulN_Afe3Hyk2KE6-v_vF-18" target="ulN_Afe3Hyk2KE6-v_vF-13">
+        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ulN_Afe3Hyk2KE6-v_vF-18" target="ulN_Afe3Hyk2KE6-v_vF-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-38" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ulN_Afe3Hyk2KE6-v_vF-18" target="ulN_Afe3Hyk2KE6-v_vF-33">
+        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-38" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ulN_Afe3Hyk2KE6-v_vF-18" target="ulN_Afe3Hyk2KE6-v_vF-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-18" value="&lt;div&gt;Connector&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;数据源集成&lt;/div&gt;&lt;div&gt;数据拉取/推送&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-18" value="&lt;div&gt;Connector&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;数据源集成&lt;/div&gt;&lt;div&gt;数据拉取/推送&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="130" y="580" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-39" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ulN_Afe3Hyk2KE6-v_vF-33" target="ulN_Afe3Hyk2KE6-v_vF-34">
+        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-39" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ulN_Afe3Hyk2KE6-v_vF-33" target="ulN_Afe3Hyk2KE6-v_vF-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-33" value="&lt;div&gt;Flow Engine&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;流式数据处理引擎&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-33" value="&lt;div&gt;Flow Engine&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;流式数据处理引擎&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="330" y="580" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-34" value="&lt;div&gt;Image Matching&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;镜像存储&lt;/div&gt;&lt;div&gt;镜像匹配&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-34" value="&lt;div&gt;Image Matching&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;镜像存储&lt;/div&gt;&lt;div&gt;镜像匹配&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="530" y="580" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-53" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ulN_Afe3Hyk2KE6-v_vF-44" target="ulN_Afe3Hyk2KE6-v_vF-51">
+        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-53" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="ulN_Afe3Hyk2KE6-v_vF-44" target="ulN_Afe3Hyk2KE6-v_vF-51" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-44" value="&lt;div&gt;SSO&lt;/div&gt;&lt;div&gt;单点登录协议实现&lt;/div&gt;&lt;div&gt;应用集成&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-44" value="&lt;div&gt;SSO&lt;/div&gt;&lt;div&gt;单点登录协议实现&lt;/div&gt;&lt;div&gt;应用集成&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="330" y="400" width="190" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-50" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ulN_Afe3Hyk2KE6-v_vF-47" target="ulN_Afe3Hyk2KE6-v_vF-49">
+        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-50" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="ulN_Afe3Hyk2KE6-v_vF-47" target="ulN_Afe3Hyk2KE6-v_vF-49" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-47" value="&lt;div&gt;Admin&lt;/div&gt;&lt;div&gt;身份、组织数据管理&lt;/div&gt;&lt;div&gt;角色、权限管理&lt;/div&gt;&lt;div&gt;接口权限、应用权限分配&lt;br&gt;&lt;/div&gt;&lt;div&gt;设备管理&lt;/div&gt;&lt;div&gt;安全策略：时间/地理/IP/黑白名单&lt;/div&gt;&lt;div&gt;安全审计&lt;/div&gt;&lt;div&gt;自定义域名&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-47" value="&lt;div&gt;Admin&lt;/div&gt;&lt;div&gt;身份、组织数据管理&lt;/div&gt;&lt;div&gt;角色、权限管理&lt;/div&gt;&lt;div&gt;接口权限、应用权限分配&lt;br&gt;&lt;/div&gt;&lt;div&gt;设备管理&lt;/div&gt;&lt;div&gt;安全策略：时间/地理/IP/黑白名单&lt;/div&gt;&lt;div&gt;安全审计&lt;/div&gt;&lt;div&gt;自定义域名&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="330" y="230" width="190" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-56" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ulN_Afe3Hyk2KE6-v_vF-49" target="ulN_Afe3Hyk2KE6-v_vF-51">
+        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-56" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ulN_Afe3Hyk2KE6-v_vF-49" target="ulN_Afe3Hyk2KE6-v_vF-51" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-49" value="&lt;div&gt;Contact&lt;/div&gt;&lt;div&gt;身份、组织数据的读取 API&lt;/div&gt;&lt;div&gt;RESTful、SCIM、LDAP&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-49" value="&lt;div&gt;Contact&lt;/div&gt;&lt;div&gt;身份、组织数据的读取 API&lt;/div&gt;&lt;div&gt;RESTful、SCIM、LDAP&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="550" y="250" width="150" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-51" value="服务提供商/应用" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-51" value="服务提供商/应用" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="770" y="410" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-58" value="&lt;div&gt;APISIX 网关&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;负载均衡&lt;/div&gt;&lt;div&gt;熔断限流&lt;/div&gt;&lt;div&gt;服务路由&lt;/div&gt;&lt;div&gt;灰度发布&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-58" value="&lt;div&gt;APISIX 网关&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;负载均衡&lt;/div&gt;&lt;div&gt;熔断限流&lt;/div&gt;&lt;div&gt;服务路由&lt;/div&gt;&lt;div&gt;灰度发布&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-880" y="320" width="240" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-59" value="&lt;div&gt;业务服务&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;UD 模块：Admin、IDP、SSO、Contact&lt;/div&gt;&lt;div&gt;LCM 模块：Connector、Flow Engine、Image Matching&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-59" value="&lt;div&gt;业务服务&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;UD 模块：Admin、IDP、SSO、Contact&lt;/div&gt;&lt;div&gt;LCM 模块：Connector、Flow Engine、Image Matching&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="-880" y="420" width="480" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-62" value="&lt;div&gt;基础服务：支撑业务服务&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Key Manager：密钥生成、保护（密钥、证书、密码、令牌）&lt;/div&gt;&lt;div&gt;Notification：消息推送（短信、邮件、站内信、企微钉钉飞书）&lt;/div&gt;&lt;div&gt;Script Engine：脚本引擎&lt;/div&gt;&lt;div&gt;Job Scheduler：任务定时调度&lt;br&gt;&lt;/div&gt;&lt;div&gt;Dynamic Loading：动态加载（加载定制单点登录协议、Agent 自动升级）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-62" value="&lt;div&gt;基础服务：支撑业务服务&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Key Manager：密钥生成、保护（密钥、证书、密码、令牌）&lt;/div&gt;&lt;div&gt;Notification：消息推送（短信、邮件、站内信、企微钉钉飞书）&lt;/div&gt;&lt;div&gt;Script Engine：脚本引擎&lt;/div&gt;&lt;div&gt;Job Scheduler：任务定时调度&lt;br&gt;&lt;/div&gt;&lt;div&gt;Dynamic Loading：动态加载（加载定制单点登录协议、Agent 自动升级）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="-880" y="490" width="480" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-64" value="&lt;div&gt;数据层&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;MySQL：分库、VIP&lt;/div&gt;&lt;div&gt;Redis：锁、缓存、频控&lt;/div&gt;&lt;div&gt;ES：搜索、统计总数&lt;/div&gt;&lt;div&gt;Vault：供 KMS 使用&lt;/div&gt;&lt;div&gt;腾讯云对象存储：文件图片&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-64" value="&lt;div&gt;数据层&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;MySQL：分库、VIP&lt;/div&gt;&lt;div&gt;Redis：锁、缓存、频控&lt;/div&gt;&lt;div&gt;ES：搜索、统计总数&lt;/div&gt;&lt;div&gt;Vault：供 KMS 使用&lt;/div&gt;&lt;div&gt;腾讯云对象存储：文件图片&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-880" y="610" width="150" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-65" value="&lt;div&gt;分布式日志系统&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ELK&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-65" value="&lt;div&gt;分布式日志系统&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ELK&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-640" y="610" width="120" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-66" value="&lt;div&gt;消息组件&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Kafka&lt;br&gt;&lt;/div&gt;&lt;div&gt;Zookeeper&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-66" value="&lt;div&gt;消息组件&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Kafka&lt;br&gt;&lt;/div&gt;&lt;div&gt;Zookeeper&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-730" y="610" width="90" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-67" value="&lt;div&gt;监控、告警&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;硬件资源、网络资源&lt;/div&gt;&lt;div&gt;访问量、日活&lt;br&gt;&lt;/div&gt;&lt;div&gt;JVM、MySQL&lt;/div&gt;&lt;div&gt;中间件&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-67" value="&lt;div&gt;监控、告警&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;硬件资源、网络资源&lt;/div&gt;&lt;div&gt;访问量、日活&lt;br&gt;&lt;/div&gt;&lt;div&gt;JVM、MySQL&lt;/div&gt;&lt;div&gt;中间件&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-520" y="610" width="120" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-68" value="&lt;div&gt;服务间通信&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;RPC&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-68" value="&lt;div&gt;服务间通信&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;RPC&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-400" y="420" width="70" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-69" value="&lt;div&gt;外部通信&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;HTTPS&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-69" value="&lt;div&gt;外部通信&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;HTTPS&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-960" y="420" width="80" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-71" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="ulN_Afe3Hyk2KE6-v_vF-70">
+        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-71" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" parent="1" source="ulN_Afe3Hyk2KE6-v_vF-70" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-970" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-70" value="&lt;div&gt;身份提供商/目录&lt;br&gt;&lt;/div&gt;&lt;div&gt;服务提供商/应用&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-70" value="&lt;div&gt;身份提供商/目录&lt;br&gt;&lt;/div&gt;&lt;div&gt;服务提供商/应用&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1140" y="480" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-72" value="&lt;div&gt;腾讯北极星服务发现/注册中心&lt;/div&gt;&lt;div&gt;配置中心：动态配置、服务启动配置&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-72" value="&lt;div&gt;腾讯北极星服务发现/注册中心&lt;/div&gt;&lt;div&gt;配置中心：动态配置、服务启动配置&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-640" y="320" width="240" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-75" value="私有化" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-75" value="私有化" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-800" y="200" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-77" value="&lt;div&gt;公有云&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ulN_Afe3Hyk2KE6-v_vF-77" value="&lt;div&gt;公有云&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-600" y="200" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
