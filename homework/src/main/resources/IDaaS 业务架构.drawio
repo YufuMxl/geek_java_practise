@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-16T03:45:22.470Z" agent="5.0 (Macintosh)" etag="t1wiZu0_rBg_kOde-CmH" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-16T03:46:43.944Z" agent="5.0 (Macintosh)" etag="llZVoXSYhuKFqHGl6-WM" version="20.5.3" type="github">
   <diagram id="m7KzZiY3-KN9SMEAAMLc" name="第 1 页">
     <mxGraphModel dx="3165" dy="1216" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -92,16 +92,16 @@
           <mxGeometry x="-880" y="340" width="400" height="120" as="geometry" />
         </mxCell>
         <mxCell id="ulN_Afe3Hyk2KE6-v_vF-64" value="&lt;div&gt;数据层&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;MySQL：分库、VIP&lt;/div&gt;&lt;div&gt;Redis：锁、缓存、频控&lt;/div&gt;&lt;div&gt;ES：搜索、统计总数&lt;/div&gt;&lt;div&gt;Vault：供 KMS 使用&lt;/div&gt;&lt;div&gt;腾讯云对象存储：文件图片&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-880" y="460" width="200" height="120" as="geometry" />
+          <mxGeometry x="-960" y="460" width="280" height="120" as="geometry" />
         </mxCell>
         <mxCell id="ulN_Afe3Hyk2KE6-v_vF-65" value="&lt;div&gt;分布式日志系统 ELK&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-880" y="580" width="400" height="40" as="geometry" />
+          <mxGeometry x="-400" y="200" width="90" height="380" as="geometry" />
         </mxCell>
         <mxCell id="ulN_Afe3Hyk2KE6-v_vF-66" value="&lt;div&gt;消息组件&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Kafka&lt;br&gt;&lt;/div&gt;&lt;div&gt;Zookeeper&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-680" y="460" width="200" height="120" as="geometry" />
+          <mxGeometry x="-680" y="460" width="280" height="120" as="geometry" />
         </mxCell>
         <mxCell id="ulN_Afe3Hyk2KE6-v_vF-67" value="&lt;div&gt;监控、报警&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;硬件资源、网络资源&lt;/div&gt;&lt;div&gt;访问量、日活&lt;br&gt;&lt;/div&gt;&lt;div&gt;JVM、MySQL&lt;/div&gt;&lt;div&gt;中间件&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-880" y="620" width="400" height="100" as="geometry" />
+          <mxGeometry x="-310" y="200" width="110" height="380" as="geometry" />
         </mxCell>
         <mxCell id="ulN_Afe3Hyk2KE6-v_vF-68" value="&lt;div&gt;服务间通信&lt;/div&gt;&lt;div&gt;RPC&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-960" y="260" width="80" height="200" as="geometry" />
