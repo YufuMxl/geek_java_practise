@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-12-15T13:56:58.620Z" agent="5.0 (Macintosh)" etag="tPcdbxuhRoPwc0mPBuk4" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-15T14:04:23.033Z" agent="5.0 (Macintosh)" etag="cxo_PculL2_vAqoDHRK7" version="20.5.1" type="github">
   <diagram id="DV70YoczdcXAqXvuC5N2" name="Page-1">
     <mxGraphModel dx="650" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="MCes9jQ9LnqtvtJbUF1T-10" value="Server 层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=bottom;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="200" y="340" width="600" height="180" as="geometry" />
+          <mxGeometry x="200" y="340" width="600" height="220" as="geometry" />
         </mxCell>
         <mxCell id="MCes9jQ9LnqtvtJbUF1T-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.999;entryY=0.168;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=classic;endFill=1;" parent="1" source="MCes9jQ9LnqtvtJbUF1T-1" target="MCes9jQ9LnqtvtJbUF1T-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -65,7 +65,7 @@
           <mxGeometry x="560" y="480" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="1q8aMht3Iory4np2DS2w-1" value="Engine 层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="200" y="540" width="600" height="540" as="geometry" />
+          <mxGeometry x="200" y="560" width="600" height="520" as="geometry" />
         </mxCell>
         <mxCell id="1q8aMht3Iory4np2DS2w-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="1" source="MCes9jQ9LnqtvtJbUF1T-4" target="1q8aMht3Iory4np2DS2w-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -73,14 +73,8 @@
         <mxCell id="1q8aMht3Iory4np2DS2w-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" parent="1" source="1q8aMht3Iory4np2DS2w-2" target="1q8aMht3Iory4np2DS2w-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1q8aMht3Iory4np2DS2w-2" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;6.写 undolog&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;存储回滚段指针&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;存储事务 ID&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#82B366;strokeColor=#82b366;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="400" y="560" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="1q8aMht3Iory4np2DS2w-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;" parent="1" source="1q8aMht3Iory4np2DS2w-5" target="1q8aMht3Iory4np2DS2w-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="1q8aMht3Iory4np2DS2w-5" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;undolog 可以回滚/崩溃修复/MVCC&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;通过回滚段指针找到对应的 undolog&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;通过事务 ID 来判断记录的可见性&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#7EA6E0;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="560" y="560" width="210" height="40" as="geometry" />
+        <mxCell id="1q8aMht3Iory4np2DS2w-2" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;6.Server 层调用 Engine 层的读接口，读取 ID = 2 的行记录&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="400" y="540" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hMCffs2HG-8e7PShsNuX-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="1q8aMht3Iory4np2DS2w-7" target="hMCffs2HG-8e7PShsNuX-11">
           <mxGeometry relative="1" as="geometry" />
@@ -147,19 +141,19 @@
         <mxCell id="hMCffs2HG-8e7PShsNuX-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="hMCffs2HG-8e7PShsNuX-3" target="hMCffs2HG-8e7PShsNuX-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hMCffs2HG-8e7PShsNuX-3" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;10.将新行写入数据库&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="hMCffs2HG-8e7PShsNuX-3" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;10.Server 层调用 Engine 层的写入接口，写入新行&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="400" y="820" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hMCffs2HG-8e7PShsNuX-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="hMCffs2HG-8e7PShsNuX-5" target="hMCffs2HG-8e7PShsNuX-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hMCffs2HG-8e7PShsNuX-5" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;9.将这行记录的字段的值加 1&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="hMCffs2HG-8e7PShsNuX-5" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;9.Server 层将这行记录的字段的值加 1&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="400" y="770" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hMCffs2HG-8e7PShsNuX-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontSize=10;" edge="1" parent="1" source="hMCffs2HG-8e7PShsNuX-11" target="hMCffs2HG-8e7PShsNuX-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hMCffs2HG-8e7PShsNuX-11" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;8.返回行数据&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#82B366;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="hMCffs2HG-8e7PShsNuX-11" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;8.返回行数据给 Server 层&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#82B366;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="400" y="720" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
