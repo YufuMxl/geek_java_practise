@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-10T09:08:38.547Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/111.0" etag="BPcgIXt_vgLjrL3Zj5iJ" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-10T09:11:40.524Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/111.0" etag="c5ARY8ule078LzUgsarn" version="21.1.5" type="github">
   <diagram name="第 1 页" id="s-dX0Y2uISyYPD3RqodX">
     <mxGraphModel dx="1562" dy="1022" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -31,10 +31,10 @@
         <mxCell id="3hOJ42gWwzK8ZNogskPF-4" value="Gateway" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="95" y="490" width="400" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3hOJ42gWwzK8ZNogskPF-6" value="Cache&lt;br&gt;&lt;div&gt;Redis&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3hOJ42gWwzK8ZNogskPF-6" value="Cache" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="175" y="780" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3hOJ42gWwzK8ZNogskPF-7" value="Search&lt;br&gt;&lt;div&gt;ES&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3hOJ42gWwzK8ZNogskPF-7" value="Search" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="95" y="780" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3hOJ42gWwzK8ZNogskPF-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3hOJ42gWwzK8ZNogskPF-8" target="3hOJ42gWwzK8ZNogskPF-66">
