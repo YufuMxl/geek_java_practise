@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-11T03:08:52.410Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/111.0" etag="LGvyyhibJw2riXyrRoWM" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-11T03:14:58.530Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/111.0" etag="5SBPEl5Iwhv2zKo5yIIV" version="21.1.5" type="github">
   <diagram name="第 1 页" id="VAUSpr0xMT_1Gf3X5b7z">
     <mxGraphModel dx="1488" dy="973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -6,7 +6,7 @@
         <mxCell id="1" parent="0" />
         <mxCell id="9oLvm9fha_cj0BbzAq8S-1" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="110" y="1650" as="sourcePoint" />
+            <mxPoint x="110" y="1040" as="sourcePoint" />
             <mxPoint x="110" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -15,7 +15,7 @@
         </mxCell>
         <mxCell id="9oLvm9fha_cj0BbzAq8S-4" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="350" y="1650" as="sourcePoint" />
+            <mxPoint x="350" y="1040" as="sourcePoint" />
             <mxPoint x="350" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -24,7 +24,7 @@
         </mxCell>
         <mxCell id="9oLvm9fha_cj0BbzAq8S-6" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="590" y="1640" as="sourcePoint" />
+            <mxPoint x="590" y="1040" as="sourcePoint" />
             <mxPoint x="590" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -33,7 +33,7 @@
         </mxCell>
         <mxCell id="9oLvm9fha_cj0BbzAq8S-8" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="830" y="1640" as="sourcePoint" />
+            <mxPoint x="830" y="1040" as="sourcePoint" />
             <mxPoint x="830" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -46,7 +46,7 @@
             <mxPoint x="590" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9oLvm9fha_cj0BbzAq8S-11" value="&lt;div&gt;1.认证用户身份&lt;/div&gt;&lt;div&gt;2.用户授权&lt;br&gt;&lt;/div&gt;&lt;div&gt;3.获取到 user access token&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9oLvm9fha_cj0BbzAq8S-10">
+        <mxCell id="9oLvm9fha_cj0BbzAq8S-11" value="&lt;div&gt;1.用户身份认证&lt;/div&gt;&lt;div&gt;2.用户授权&lt;br&gt;&lt;/div&gt;&lt;div&gt;3.获取到 user access token&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9oLvm9fha_cj0BbzAq8S-10">
           <mxGeometry x="-0.5453" y="1" relative="1" as="geometry">
             <mxPoint x="8" as="offset" />
           </mxGeometry>
@@ -57,12 +57,12 @@
             <mxPoint x="590" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9oLvm9fha_cj0BbzAq8S-13" value="利用 account access token&lt;br&gt;&lt;div&gt;获取 eid on prem token&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9oLvm9fha_cj0BbzAq8S-12">
+        <mxCell id="9oLvm9fha_cj0BbzAq8S-13" value="&lt;div&gt;利用 account access token + union id&lt;br&gt;&lt;/div&gt;&lt;div&gt;获取 eid on prem token&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9oLvm9fha_cj0BbzAq8S-12">
           <mxGeometry x="0.0437" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-6" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9oLvm9fha_cj0BbzAq8S-14" value="&lt;div&gt;获取 app access token&lt;/div&gt;&lt;div&gt;获取 account access token&lt;br&gt;&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;startArrow=classic;startFill=1;" edge="1" parent="1">
+        <mxCell id="9oLvm9fha_cj0BbzAq8S-14" value="&lt;div&gt;获取到 app access token&lt;/div&gt;&lt;div&gt;获取到 account access token&lt;br&gt;&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;startArrow=classic;startFill=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="350" y="240" as="sourcePoint" />
             <mxPoint x="590" y="240" as="targetPoint" />
@@ -85,7 +85,7 @@
             <mxPoint x="350" y="800" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9oLvm9fha_cj0BbzAq8S-20" value="用户请求登出：unionId" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9oLvm9fha_cj0BbzAq8S-19">
+        <mxCell id="9oLvm9fha_cj0BbzAq8S-20" value="用户登出：unionId" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9oLvm9fha_cj0BbzAq8S-19">
           <mxGeometry x="-0.3208" relative="1" as="geometry">
             <mxPoint x="29" as="offset" />
           </mxGeometry>
@@ -116,7 +116,7 @@
             <mxPoint x="19" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9oLvm9fha_cj0BbzAq8S-27" value="失效 eid on prem token" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="9oLvm9fha_cj0BbzAq8S-27" value="&lt;div&gt;如果是混合云企业，&lt;/div&gt;&lt;div&gt;还需主动失效 eid on prem token&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="590" y="880" as="sourcePoint" />
             <mxPoint x="830" y="880" as="targetPoint" />
@@ -318,6 +318,23 @@
         <mxCell id="9oLvm9fha_cj0BbzAq8S-63" value="暂存 eid on prem token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="9oLvm9fha_cj0BbzAq8S-62">
           <mxGeometry x="0.0083" y="1" relative="1" as="geometry">
             <mxPoint x="49" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9oLvm9fha_cj0BbzAq8S-64" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="1040" as="sourcePoint" />
+            <mxPoint x="1088.235294117647" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9oLvm9fha_cj0BbzAq8S-65" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="1040" as="sourcePoint" />
+            <mxPoint x="60" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9oLvm9fha_cj0BbzAq8S-66" value="登出阶段" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9oLvm9fha_cj0BbzAq8S-65">
+          <mxGeometry x="0.0934" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
