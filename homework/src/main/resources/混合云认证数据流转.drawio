@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-11T02:52:46.607Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/111.0" etag="WJGlX3jL1pRRT3cfgxeb" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-11T02:56:04.461Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/111.0" etag="w3IYJnKXZOK4BHs_dvzS" version="21.1.5" type="github">
   <diagram name="第 1 页" id="VAUSpr0xMT_1Gf3X5b7z">
     <mxGraphModel dx="1488" dy="973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -46,7 +46,7 @@
             <mxPoint x="590" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9oLvm9fha_cj0BbzAq8S-11" value="&lt;div&gt;用户身份认证&lt;/div&gt;&lt;div&gt;用户授权&lt;br&gt;&lt;/div&gt;&lt;div&gt;获取 user access token&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9oLvm9fha_cj0BbzAq8S-10">
+        <mxCell id="9oLvm9fha_cj0BbzAq8S-11" value="&lt;div&gt;1.认证用户身份&lt;/div&gt;&lt;div&gt;2.用户授权&lt;br&gt;&lt;/div&gt;&lt;div&gt;3.获取到 user access token&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9oLvm9fha_cj0BbzAq8S-10">
           <mxGeometry x="-0.5453" y="1" relative="1" as="geometry">
             <mxPoint x="8" as="offset" />
           </mxGeometry>
