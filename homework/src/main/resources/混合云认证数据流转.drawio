@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-11T06:17:33.088Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/111.0" etag="Aa6yk4cAupxg0T8w4_Gi" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-11T08:40:18.184Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/111.0" etag="piWMdetxzw5r4bTUY-Aq" version="21.1.5" type="github">
   <diagram name="第 1 页" id="VAUSpr0xMT_1Gf3X5b7z">
     <mxGraphModel dx="1488" dy="973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -358,7 +358,7 @@
             <mxPoint x="67" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9oLvm9fha_cj0BbzAq8S-72" value="&lt;div&gt;获取到 user access token&lt;/div&gt;&amp;nbsp;+ refres token" style="endArrow=classic;html=1;rounded=0;startArrow=classic;startFill=1;" edge="1" parent="1">
+        <mxCell id="9oLvm9fha_cj0BbzAq8S-72" value="&lt;div&gt;获取到 user access token&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;startArrow=classic;startFill=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="470" y="320" as="sourcePoint" />
             <mxPoint x="710" y="320" as="targetPoint" />
