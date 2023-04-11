@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-11T03:44:24.246Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/111.0" etag="wpij92tAm2fgiOHroTJ3" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-11T03:45:24.023Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/111.0" etag="y31KBsUGPsRtdx5jfW35" version="21.1.5" type="github">
   <diagram name="第 1 页" id="VAUSpr0xMT_1Gf3X5b7z">
     <mxGraphModel dx="1488" dy="973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -64,8 +64,8 @@
         </mxCell>
         <mxCell id="9oLvm9fha_cj0BbzAq8S-14" value="&lt;div&gt;获取到 app access token&lt;/div&gt;&lt;div&gt;获取到 account access token&lt;br&gt;&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;startArrow=classic;startFill=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="350" y="240" as="sourcePoint" />
-            <mxPoint x="590" y="240" as="targetPoint" />
+            <mxPoint x="350" y="360" as="sourcePoint" />
+            <mxPoint x="590" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9oLvm9fha_cj0BbzAq8S-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
@@ -153,8 +153,8 @@
         </mxCell>
         <mxCell id="9oLvm9fha_cj0BbzAq8S-35" value="" style="endArrow=classic;html=1;rounded=0;startArrow=classic;startFill=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="110" y="280" as="sourcePoint" />
-            <mxPoint x="350" y="280" as="targetPoint" />
+            <mxPoint x="110" y="240" as="sourcePoint" />
+            <mxPoint x="350" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9oLvm9fha_cj0BbzAq8S-36" value="&lt;div&gt;获取企业信息&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9oLvm9fha_cj0BbzAq8S-35">
@@ -164,11 +164,11 @@
         </mxCell>
         <mxCell id="9oLvm9fha_cj0BbzAq8S-37" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="109.95" y="320" as="sourcePoint" />
-            <mxPoint x="109.95" y="360" as="targetPoint" />
+            <mxPoint x="110.05" y="280" as="sourcePoint" />
+            <mxPoint x="110.05" y="320" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="139.95" y="320" />
-              <mxPoint x="139.95" y="360" />
+              <mxPoint x="140.04999999999998" y="280" />
+              <mxPoint x="140.04999999999998" y="320" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -354,8 +354,8 @@
         </mxCell>
         <mxCell id="9oLvm9fha_cj0BbzAq8S-70" value="" style="endArrow=classic;html=1;rounded=0;startArrow=classic;startFill=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="350" y="280" as="sourcePoint" />
-            <mxPoint x="590" y="280" as="targetPoint" />
+            <mxPoint x="350" y="240" as="sourcePoint" />
+            <mxPoint x="590" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9oLvm9fha_cj0BbzAq8S-71" value="&lt;div&gt;利用 user access token&lt;/div&gt;&lt;div&gt;获取企业信息&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9oLvm9fha_cj0BbzAq8S-70">
