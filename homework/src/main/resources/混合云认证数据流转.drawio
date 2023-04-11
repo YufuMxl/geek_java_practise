@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-11T02:56:04.461Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/111.0" etag="w3IYJnKXZOK4BHs_dvzS" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-11T03:01:25.891Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/111.0" etag="Y4oJKQ3HVF_tRqs44bMN" version="21.1.5" type="github">
   <diagram name="第 1 页" id="VAUSpr0xMT_1Gf3X5b7z">
     <mxGraphModel dx="1488" dy="973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -57,7 +57,7 @@
             <mxPoint x="590" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9oLvm9fha_cj0BbzAq8S-13" value="获取内网 token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9oLvm9fha_cj0BbzAq8S-12">
+        <mxCell id="9oLvm9fha_cj0BbzAq8S-13" value="利用 account access token&lt;br&gt;&lt;div&gt;获取 eid on prem token&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9oLvm9fha_cj0BbzAq8S-12">
           <mxGeometry x="0.0437" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -74,9 +74,9 @@
             <mxPoint x="830" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9oLvm9fha_cj0BbzAq8S-18" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;访问内网资源&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9oLvm9fha_cj0BbzAq8S-17">
+        <mxCell id="9oLvm9fha_cj0BbzAq8S-18" value="&lt;div&gt;访问 on prem 资源&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9oLvm9fha_cj0BbzAq8S-17">
           <mxGeometry x="-0.7198" relative="1" as="geometry">
-            <mxPoint x="9" y="-10" as="offset" />
+            <mxPoint x="9" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9oLvm9fha_cj0BbzAq8S-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
@@ -116,7 +116,7 @@
             <mxPoint x="19" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9oLvm9fha_cj0BbzAq8S-27" value="内网凭证失效" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="9oLvm9fha_cj0BbzAq8S-27" value="失效 eid on prem token" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="590" y="880" as="sourcePoint" />
             <mxPoint x="830" y="880" as="targetPoint" />
@@ -177,7 +177,7 @@
             <mxPoint x="49" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9oLvm9fha_cj0BbzAq8S-39" value="&lt;div&gt;该企业是混合云企业&lt;br&gt;&lt;/div&gt;&lt;div&gt;则获取内网 token&lt;br&gt;&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;startArrow=classic;startFill=1;" edge="1" parent="1">
+        <mxCell id="9oLvm9fha_cj0BbzAq8S-39" value="&lt;div&gt;该企业是混合云企业&lt;br&gt;&lt;/div&gt;&lt;div&gt;则获取 eid on prem token&lt;br&gt;&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;startArrow=classic;startFill=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="110" y="400" as="sourcePoint" />
             <mxPoint x="350" y="400" as="targetPoint" />
@@ -204,20 +204,20 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9oLvm9fha_cj0BbzAq8S-45" value="&lt;div&gt;根据企业公钥&lt;/div&gt;&lt;div&gt;对内网 token 鉴权&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="9oLvm9fha_cj0BbzAq8S-44">
+        <mxCell id="9oLvm9fha_cj0BbzAq8S-45" value="&lt;div&gt;根据企业公钥&lt;/div&gt;&lt;div&gt;对 eid on prem token 鉴权&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="9oLvm9fha_cj0BbzAq8S-44">
           <mxGeometry x="0.0083" y="1" relative="1" as="geometry">
             <mxPoint x="49" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9oLvm9fha_cj0BbzAq8S-46" value="" style="endArrow=none;html=1;rounded=0;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
+        <mxCell id="9oLvm9fha_cj0BbzAq8S-46" value="" style="endArrow=none;html=1;rounded=0;startArrow=none;startFill=0;endFill=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="110" y="680" as="sourcePoint" />
             <mxPoint x="830" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9oLvm9fha_cj0BbzAq8S-47" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;访问内网资源&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9oLvm9fha_cj0BbzAq8S-46">
+        <mxCell id="9oLvm9fha_cj0BbzAq8S-47" value="&lt;div&gt;返回 on prem 资源&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9oLvm9fha_cj0BbzAq8S-46">
           <mxGeometry x="-0.7198" relative="1" as="geometry">
-            <mxPoint x="9" y="-10" as="offset" />
+            <mxPoint x="9" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9oLvm9fha_cj0BbzAq8S-48" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1">
@@ -230,9 +230,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9oLvm9fha_cj0BbzAq8S-49" value="内网凭证加入黑名单" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="9oLvm9fha_cj0BbzAq8S-48">
+        <mxCell id="9oLvm9fha_cj0BbzAq8S-49" value="将 eid on prem token 加入黑名单" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="9oLvm9fha_cj0BbzAq8S-48">
           <mxGeometry x="0.0083" y="1" relative="1" as="geometry">
-            <mxPoint x="49" as="offset" />
+            <mxPoint x="69" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9oLvm9fha_cj0BbzAq8S-50" value="" style="endArrow=none;html=1;rounded=0;startArrow=none;startFill=0;endFill=0;" edge="1" parent="1">
@@ -261,6 +261,21 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="350" y="960" as="sourcePoint" />
             <mxPoint x="590" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9oLvm9fha_cj0BbzAq8S-55" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="109.98000000000002" y="680" as="sourcePoint" />
+            <mxPoint x="109.98000000000002" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="139.98000000000002" y="680" />
+              <mxPoint x="139.98000000000002" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9oLvm9fha_cj0BbzAq8S-56" value="展示组织、人员信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9oLvm9fha_cj0BbzAq8S-55">
+          <mxGeometry x="0.0083" y="1" relative="1" as="geometry">
+            <mxPoint x="29" y="10" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
