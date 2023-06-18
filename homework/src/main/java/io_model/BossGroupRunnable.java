@@ -5,14 +5,15 @@ import java.nio.channels.SelectionKey;
 import java.nio.channels.Selector;
 import java.nio.channels.ServerSocketChannel;
 import java.nio.channels.SocketChannel;
-import java.util.Iterator;
-import java.util.Set;
+import java.util.*;
 
 public class BossGroupRunnable implements Runnable {
 
     private final Selector selector = Selector.open();
-    private final WorkerGroupRunnable workerGroupRunnable1 = new WorkerGroupRunnable();
-    private final WorkerGroupRunnable workerGroupRunnable2 = new WorkerGroupRunnable();
+    private final WorkerGroupRunnable workerGroupRunnable1 = new WorkerGroupRunnable(worker1Queue);
+    private final WorkerGroupRunnable workerGroupRunnable2 = new WorkerGroupRunnable(worker2Queue);
+    private final static Queue<SocketChannel> worker1Queue = new ArrayDeque<>();
+    private final static Queue<SocketChannel> worker2Queue = new ArrayDeque<>();
 
     public BossGroupRunnable(ServerSocketChannel boss) throws IOException {
         boss.register(selector, SelectionKey.OP_ACCEPT);
@@ -41,11 +42,9 @@ public class BossGroupRunnable implements Runnable {
                             worker.configureBlocking(false);
 
                             if (count % 2 == 0) {
-                                workerGroupRunnable1.register(worker);
-                                System.out.println(worker.getRemoteAddress() + " worker 被注册到线程1");
+                                worker1Queue.offer(worker);
                             } else {
-                                workerGroupRunnable2.register(worker);
-                                System.out.println(worker.getRemoteAddress() + " worker 被注册到线程2");
+                                worker2Queue.offer(worker);
                             }
                         }
                     }

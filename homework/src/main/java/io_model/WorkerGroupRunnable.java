@@ -4,18 +4,16 @@ import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.channels.*;
 import java.util.Iterator;
+import java.util.Queue;
 import java.util.Set;
 
 public class WorkerGroupRunnable implements Runnable {
 
     private final Selector selector = Selector.open();
+    private final Queue<SocketChannel> workerQueue;
 
-    public WorkerGroupRunnable() throws IOException {
-    }
-
-    public void register(SocketChannel worker) throws IOException {
-        ByteBuffer byteBuffer = ByteBuffer.allocate(1024);
-        worker.register(selector, SelectionKey.OP_READ, byteBuffer);
+    public WorkerGroupRunnable(Queue<SocketChannel> workerQueue) throws IOException {
+        this.workerQueue = workerQueue;
     }
 
     @Override
@@ -35,6 +33,12 @@ public class WorkerGroupRunnable implements Runnable {
                             readHandler(next);
                         }
                     }
+                }
+                while (!workerQueue.isEmpty()) {
+                    ByteBuffer byteBuffer = ByteBuffer.allocate(1024);
+                    SocketChannel worker = workerQueue.poll();
+                    worker.register(selector, SelectionKey.OP_READ, byteBuffer);
+                    System.out.println(Thread.currentThread().getId() + " 注册了 worker "+ worker.getRemoteAddress());
                 }
             }
         } catch (IOException e) {
