@@ -1,0 +1,39 @@
+epoll_create(256)                       = 7
+epoll_ctl(7, EPOLL_CTL_ADD, 5, {EPOLLIN, {u32=5, u64=10174023809003159557}}) = 0
+write(1, "@@@@ epoll_create() @@@@", 24) = 24
+
+socket(AF_INET6, SOCK_STREAM, IPPROTO_IP) = 4
+bind(4, {sa_family=AF_INET6, sin6_port=htons(9090), inet_pton(AF_INET6, "::", &sin6_addr), sin6_flowinfo=htonl(0), sin6_scope_id=0}, 28) = 0
+listen(4, 50)                           = 0
+fcntl(4, F_GETFL)                       = 0x2 (flags O_RDWR)
+fcntl(4, F_SETFL, O_RDWR|O_NONBLOCK)    = 0
+epoll_ctl(7, EPOLL_CTL_ADD, 4, {EPOLLIN, {u32=4, u64=10315857239868440580}}) = 0
+epoll_wait(7, [{EPOLLIN, {u32=4, u64=10315857239868440580}}], 4096, -1) = 1
+write(1, "@@@@ epoll_ctl()  @@@@", 22)  = 22
+write(1, "@@@@ epoll_wait() @@@@", 22)  = 22
+
+accept(4, {sa_family=AF_INET6, sin6_port=htons(57058), inet_pton(AF_INET6, "::1", &sin6_addr), sin6_flowinfo=htonl(0), sin6_scope_id=0}, [28]) = 8
+fcntl(8, F_GETFL)                       = 0x2 (flags O_RDWR)
+fcntl(8, F_SETFL, O_RDWR|O_NONBLOCK)    = 0
+epoll_ctl(7, EPOLL_CTL_ADD, 8, {EPOLLIN, {u32=8, u64=10403003771276754952}}) = 0
+epoll_wait(7, [{EPOLLIN, {u32=8, u64=10403003771276754952}}], 4096, -1) = 1
+write(1, "@@@@ epoll_ctl()  @@@@", 22)  = 22
+write(1, "@@@@ epoll_wait() @@@@", 22)  = 22
+
+epoll_wait(7,
+
+
+int epoll_create(int size);
+int epoll_ctl(int epfd, int op, int fd, struct epoll_event *event);
+int epoll_wait(int epfd, struct epoll_event *events, int maxevents, int timeout);
+
+poll/select 多路复用器，对应的系统调用是 poll()/select()
+poll 和 select 很相似，但还是存在一些差异(select 是一种较古老的方法，poll 更常用)
+     接口传参：select 需传三个 fd_set 结构体，用于读、写、异常事件；poll 需传入一个 pollfd 结构体数组即可
+     可扩展性：体现在处理大量文件描述符上。select 有最大文件描述符数量的限制（通常是1024），poll 没有（它们分别使用位图、动态数据结构来表示文件描述符集合）
+     效率   ：体现在遍历文件描述符集合上。select 需要遍历整个集合，而 poll 只需要遍历活动的文件描述符
+
+epoll 多路复用器有一套系统调用
+     epoll_create()：创建一个记事本，用于记录 fd
+     epoll_ctl()：将 fd 加入记事本
+     epoll_wait()：将有状态的 fd 拿出
