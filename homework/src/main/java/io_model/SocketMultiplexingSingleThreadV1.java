@@ -11,10 +11,6 @@ public class SocketMultiplexingSingleThreadV1 {
 
     private ServerSocketChannel server = null;
     private Selector selector = null;   // 用的是 epoll
-//    private Channel channel;
-//    private SocketChannel socketChannel;
-//    private FileChannel fileChannel;
-//    private ByteBuffer byteBuffer;
 
     public void initServer() {
         try {
