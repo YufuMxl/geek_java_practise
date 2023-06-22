@@ -1,6 +1,6 @@
 package first_week;
 
-import sun.misc.Launcher;
+//import sun.misc.Launcher;
 
 import java.net.URL;
 import java.net.URLClassLoader;
@@ -28,28 +28,28 @@ public class MyClassLoader extends ClassLoader {
 
     public static void main(String[] args) throws InstantiationException, IllegalAccessException {
         // 查看启动类加载器的加载内容
-        URL[] urls = Launcher.getBootstrapClassPath().getURLs();
-        System.out.println("启动类加载器");
-        for (URL url : urls) {
-            System.out.println(url.toExternalForm());
-        }
-
-        // 查看扩展类加载器的加载内容
-        URLClassLoader extClassLoader = (URLClassLoader) MyClassLoader.class.getClassLoader().getParent();
-        System.out.println("扩展类加载器");
-        for (URL url : extClassLoader.getURLs()) {
-            System.out.println(url.toExternalForm());
-        }
-
-        // 查看应用类加载器的加载内容
-        URLClassLoader appClassLoader = (URLClassLoader) MyClassLoader.class.getClassLoader();
-        System.out.println("应用类加载器");
-        for (URL url : appClassLoader.getURLs()) {
-            System.out.println(url.toExternalForm());
-        }
-
-        // 用自定义 class loader 加载类的二进制字节流
-        new MyClassLoader().findClass("first_week.Hello").newInstance();
+//        URL[] urls = Launcher.getBootstrapClassPath().getURLs();
+//        System.out.println("启动类加载器");
+//        for (URL url : urls) {
+//            System.out.println(url.toExternalForm());
+//        }
+//
+//        // 查看扩展类加载器的加载内容
+//        URLClassLoader extClassLoader = (URLClassLoader) MyClassLoader.class.getClassLoader().getParent();
+//        System.out.println("扩展类加载器");
+//        for (URL url : extClassLoader.getURLs()) {
+//            System.out.println(url.toExternalForm());
+//        }
+//
+//        // 查看应用类加载器的加载内容
+//        URLClassLoader appClassLoader = (URLClassLoader) MyClassLoader.class.getClassLoader();
+//        System.out.println("应用类加载器");
+//        for (URL url : appClassLoader.getURLs()) {
+//            System.out.println(url.toExternalForm());
+//        }
+//
+//        // 用自定义 class loader 加载类的二进制字节流
+//        new MyClassLoader().findClass("first_week.Hello").newInstance();
     }
 
 }
